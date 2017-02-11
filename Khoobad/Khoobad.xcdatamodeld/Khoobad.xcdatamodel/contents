@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10147" systemVersion="15G31" minimumToolsVersion="Automatic">
+    <entity name="AppVersion" syncable="YES">
+        <attribute name="vAppStore" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vServer" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Bizs" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="long" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FailedComments" syncable="YES">
+        <attribute name="bizid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="comment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="openion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="token" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="FailedReports" syncable="YES">
+        <attribute name="comment_id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reason" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Favorites" syncable="YES">
+        <attribute name="biz_id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="LocalDB" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="count" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="downloaded" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lastUpdate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="ostan_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LocalRateDB" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="long" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="ostan_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ratesText" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Ostans" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="." syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="imageAdd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isLogin" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lastname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pass" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="token" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AppVersion" positionX="-54" positionY="72" width="128" height="75"/>
+        <element name="Bizs" positionX="-54" positionY="63" width="128" height="120"/>
+        <element name="FailedComments" positionX="-54" positionY="63" width="128" height="150"/>
+        <element name="FailedReports" positionX="-45" positionY="81" width="128" height="90"/>
+        <element name="Favorites" positionX="-63" positionY="54" width="128" height="60"/>
+        <element name="LocalDB" positionX="-63" positionY="54" width="128" height="150"/>
+        <element name="Ostans" positionX="-54" positionY="72" width="128" height="90"/>
+        <element name="User" positionX="-63" positionY="-18" width="128" height="180"/>
+        <element name="LocalRateDB" positionX="-54" positionY="72" width="128" height="120"/>
+    </elements>
+</model>
